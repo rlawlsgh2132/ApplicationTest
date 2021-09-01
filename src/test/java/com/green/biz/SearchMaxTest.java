@@ -12,7 +12,11 @@ public class SearchMaxTest {
 		int[]a = {1,3,4,2};
 		int[]b = {-12,-1,-3,-4,-2};
 		
+		assertEquals("SearchMax",4,calc.searchMax(a));
+		
 		System.out.println(calc.searchMax(a));
+		
+		assertEquals("SearchMax",-1,calc.searchMax(b));
 		
 		System.out.println(calc.searchMax(b));
 	}
